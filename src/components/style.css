@@ -1,0 +1,117 @@
+main {
+  width: 100vw;
+  height: 100vh;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 21.875rem;
+  height: 75vh;
+  margin-left: 6.25rem;
+  margin-top: 100px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.div-valorTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 6.25rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  height: 75vh;
+}
+
+.listaTarefas {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin-top: 16.5rem;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 115px;
+  height: 5.438rem;
+  width: 35rem;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.inputDescricao {
+  width: 19.625rem;
+  height: 3.3rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.divTipoEValor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valorETipo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valor {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+}
+
+#options {
+  width: 9.375rem;
+  height: 3rem;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.inserirValor {
+  width: 19.625rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #f8f9fa;
+  background-color: #fd377e;
+  border: none;
+}
+
+h3 {
+  margin-top: 100px;
+  position: absolute;
+}
+
+.valorTotal {
+  color: #fd377e;
+  font-weight: 700;
+}
+
+.descricaoETipo {
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao1 {
+  font-weight: 700;
+}
